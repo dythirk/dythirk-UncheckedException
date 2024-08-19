@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.*;
+
 
 public class Lab {
     /**
@@ -12,10 +15,10 @@ public class Lab {
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
      */
-    public void throwUncheckedException(int numer, int denom){
-        numer = 2;
-        denom = 0;
-        System.out.print(numer/denom);
+    public void throwUncheckedException(){
+        int numer = 2;
+        int denom = 0;
+        float bar = numer/denom;
         return;
     }
 }
